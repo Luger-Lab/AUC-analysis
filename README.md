@@ -5,4 +5,10 @@ To make the use of these scripts easier via a command-line, users should also in
 
 ## Repository Organization
 
-The scripts contained in this collection are broken down in to two categories: plotting scripts and calculators. Example data from each category comes from Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules" *In preparation*. If you use any of the scripts contained within this repository for your research or manuscript preparation, then please cite that paper.
+The scripts contained in this collection are broken down in to two categories: plotting scripts and calculators. Example data from each category comes from Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules" *Submitted*.
+
+## Citing the Scripts in this Repository
+
+If you use any of the following scripts contained within this repository for your research or manuscript preparation, then please cite the following paper(s):
+
+- `svedberg_equation.py`, `multiple_vHW.py`, or `titration_gradient.py` : Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules" *Submitted*.
