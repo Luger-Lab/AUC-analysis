@@ -98,7 +98,7 @@ if fit_mw and not fit_vbar:
         plt.show()
 
 elif fit_vbar and not fit_mw:
-    # vbar = (1/p) * [ (RT*S)/(MW*D) + 1]
+    # vbar = (1/p) * [ 1 - (RT*S)/(MW*D) ]
     rts_over_md = (RT*sed_coeff)/(mw*diff_const)
     vbar_calc   = (1/sol_dens) * (1 - rts_over_md)
     vbar_calc   = np.around(vbar_calc,decimals=4)
