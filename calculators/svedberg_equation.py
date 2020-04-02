@@ -21,7 +21,7 @@ import argparse
 import matplotlib.pyplot as plt
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-s",help='Sed. coefficient (in S, or 10^13 svedberg).',default=0.0,type=float)
+parser.add_argument("-s",help='Sed. coefficient (in S, or 10^-13 seconds).',default=0.0,type=float)
 parser.add_argument("-d",help='Diff. Coefficient (in cm^2/s)',default=0.0,type=float)
 parser.add_argument("-p",help='Solvent Density (in g/cm^3)',default=0.0,type=float)
 parser.add_argument("-mw",help='Theoretical Mol. Weight (in Da)',default=0.0,type=float)
@@ -45,7 +45,7 @@ if ((args.s==0) and (args.d==0) and (args.p==0)) or ((args.vbar==0) and (args.mw
             fit_mw   = True
             fit_vbar = False
 
-    sed_coeff   = float(input("What is the observed S value (in S, 10^13 svedberg - for example: 2.67)? > "))
+    sed_coeff   = float(input("What is the observed S value (in S, 10^-13 seconds - for example: 2.67)? > "))
     diff_const  = float(input("What is the modeled Diffusion Constant (in cm^2/s - for example: 0.46912)? > "))
     sol_dens    = float(input("What is the approximate solvent density (in g/cm^3 - for example: 0.998)? > "))
     if fit_vbar and not fit_mw:
