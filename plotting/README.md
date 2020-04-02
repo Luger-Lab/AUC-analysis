@@ -8,4 +8,4 @@ The `multi_vHW.py` script is designed to simultaneously plot multiple traces fro
 
 ## titration_gradient.py
 
-The `titration_gradient.py` script is designed to 
+The `titration_gradient.py` script is designed to visualize traces from a gradient, such as titrating in binding partner concentrations or increasing salt to induce complex destabilization. Functionally, it works the same as the `multi_vHW.py` script, with the exception of using a color bar to differentiate traces instead of discrete color changes. By default, it uses the "terrain" colormap, but any of the available `matplotlib` colormaps can be used by declaring `-colormap [name of colormap]` at runtime (for a list of acceptable map names, please see: https://matplotlib.org/tutorials/colors/colormaps.html).
