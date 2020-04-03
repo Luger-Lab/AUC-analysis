@@ -1,6 +1,6 @@
 # AUC Plotting Scripts
 
-This folder contains scripts useful for creating publication-quality images of AUC data, such as plotting multiple g(S) traces from UltraScanIII. Below, you will find a list of each program and the data that it is designed to plot.
+This folder contains scripts useful for creating publication-quality images of AUC data, such as plotting multiple van Holde-Weischet traces from UltraScanIII. Below, you will find a list of each program and the data that it is designed to plot.
 
 ## multi_vHW.py
 
@@ -16,6 +16,8 @@ The `multi_vHW.py` script uses a very simplified interaction with the user. At r
 4. After marker selection, `multi_vHW.py` will ask the users to choose a legend location.
   - Similarly to marker selection, the script will only continue after the user is happy with their selection for the legend location.
 5. Once the user is satisfied with their marker and legend location choices, the script will ask for a filename to which the plot will be saved (in PDF format).
+
+An example file ("example_multi_vHW.csv") for exploring this script is provided, and this data comes from Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules" *Submitted*.
 
 ## titration_gradient.py
 
