@@ -17,8 +17,10 @@ The `multi_vHW.py` script uses a very simplified interaction with the user. At r
   - Similarly to marker selection, the script will only continue after the user is happy with their selection for the legend location.
 5. Once the user is satisfied with their marker and legend location choices, the script will ask for a filename to which the plot will be saved (in PDF format).
 
-An example file ("example_multi_vHW.csv") for exploring this script is provided, and this data comes from Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules" *Submitted*.
+An example file ("multi_vHW_example.csv") for exploring this script is provided, and this data comes from Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules" *Submitted*.
 
 ## titration_gradient.py
 
 The `titration_gradient.py` script is designed to visualize traces from a gradient, such as titrating in binding partner concentrations or increasing salt to induce complex destabilization. Functionally, it works the same as the `multi_vHW.py` script, with the exception of using a color bar to differentiate traces instead of discrete color changes. By default, it uses the "terrain" colormap, but any of the available `matplotlib` colormaps can be used by declaring `-colormap [name of colormap]` at runtime (for a list of acceptable map names, please see: https://matplotlib.org/tutorials/colors/colormaps.html).
+
+An example file ("gradient_example.csv") for exploring this script is provided, and this data comes from Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules" *Submitted*.
