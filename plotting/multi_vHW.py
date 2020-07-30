@@ -119,7 +119,7 @@ if oname[-4:] != '.pdf':
 
 plt.figure(figsize=(figx,figy))
 for idx in range(Nprof):
-    plt.plot(in_array[:,3*idx],in_array[:,3*idx],marker=marker,markersize=msize,label=names[idx],linestyle='',markeredgecolor='k')
+    plt.plot(in_array[:,3*idx],in_array[:,1+3*idx],marker=marker,markersize=msize,label=names[idx],linestyle='',markeredgecolor='k')
 plt.xlabel('Sedimentation Coefficient (S)')
 plt.xlim(xmin,xmax)
 plt.ylabel('Boundary Fraction (%)')
