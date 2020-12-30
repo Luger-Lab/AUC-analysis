@@ -11,4 +11,4 @@ The scripts contained in this collection are broken down in to two categories: p
 
 If you use any of the following scripts contained within this repository for your research or manuscript preparation, then please cite the following paper(s):
 
-- `svedberg_equation.py`, `multiple_vHW.py`, or `titration_gradient.py` : Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules" *Current Protocols in Molecular Biology*, **133**: e131 (2020).
+- `svedberg_equation.py`, `multiple_vHW.py`, or `titration_gradient.py` : Edwards et al. "Practical Analytical Ultracentrifugation: a guide to the application of fluorescence and absorbance AUC to biological macromolecules", *Current Protocols in Molecular Biology*, **133**: e131 (2020).
